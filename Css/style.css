@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* { 
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	text-decoration: none;
+	list-style: none;
+} 
+body {
+	height: 100vh;
+	width: 100%;
+	background: #262626;
+}
+main {
+	height: 86vh;
+	width: 100%;
+}
+main header nav {
+	height: 100px;
+	overflow: hidden;
+	padding: 20px 40px;
+}
+main header nav ul {
+    display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 1rem;
+	 
+}
+main header nav ul li a {
+  color: #fff;
+  font-size: 20px;
+  transition: 0.7s all ease;
+}
+main header nav ul li a:hover {
+	text-decoration: underline;
+}
+main header nav ul li i ion-icon {
+	margin-top: 7px;
+	font-size: 37px;
+	padding: 0 10px;
+	color: #fff;
+	padding: 15px;
+}
+main header nav ul li i ion-icon:hover {
+	background: #464646;
+	border-radius: 50px;
+}
+main header nav ul li img {
+	width: 60px ;
+	height: 60px;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 1px solid #b9b6b6;
+}
+main header .google-meddile {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    margin: auto;
+}
+main header .google-meddile .google-logo img {
+	width: 350px;
+	height: auto;
+	margin-top: 50px;
+
+}
+main header .google-meddile .input {
+	width: 700px;
+	margin: 20px 0;
+	position: relative;
+}
+main header .google-meddile .input input {
+  width: 100%;
+  padding: 20px 50px;
+  padding-right: 100px;
+  background: transparent;
+  outline: none;
+  border: 1px solid #a09d9d;
+  border-radius: 30px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+main header .google-meddile .input input::placeholder {
+	color: #a5a5a5;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+main header .google-meddile .input .icon .first-icon ion-icon {
+	color: #fff;
+	position: absolute;
+	top: 18px;
+	left: 13px;
+	font-size: 26px;
+}
+main header .google-meddile .input .icon .end-icon {
+	position: absolute;
+	top: 14px;
+	right: 13px;
+}
+main header .google-meddile .input .icon .end-icon img{
+    width: 40px;
+}
+/* butto design  */
+main header .header-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	gap: 1.5rem;
+}
+main header .header-button button {
+	padding: 15px 30px;
+	font-size: 20px;
+	background: #3c3c3c;
+	border-radius: 5px;
+	color: #fff;
+	border: none;
+	text-transform: capitalize;
+}
+main header .google-offered  {
+	padding: 20px 30px;
+	text-align: center;
+	display:block;
+}
+main header .google-offered span{
+	color: #fff;
+	font-size: 20px;
+}
+main header .google-offered .bd {
+	color: #0576cc;
+}
+/* google footer  */
+ .google-footer .footer-bd {
+	width: 100%;
+	height: 50px;
+	background: #000;
+	border-bottom: 3px solid #777777;
+	padding: 5px 20px;
+}
+.google-footer .footer-bd h1 {
+ color: #777777;
+}
+.google-footer .footer-end {
+	width: 100%;
+	height: 50px;
+	background: #000;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	padding: 10px 20px;
+	border-bottom: 3px solid #777777;
+}
+.google-footer .footer-end .first-footer ul{
+ display: flex;
+ gap: 1rem;
+ align-items: center;
+}
+.google-footer .footer-end .first-footer ul li  {
+	color: #777777;
+	font-size: 22px;
+}
+.google-footer .footer-end .last-footer ul{
+ display: flex;
+ gap: 1rem;
+ align-items: center;
+}
+.google-footer .footer-end .last-footer ul li  {
+	color: #777777;
+	font-size: 22px;
+}
